@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.FXMLDocumentController">
+    <children>
+        <Button fx:id="LogInButton" layoutX="298.0" layoutY="305.0" onAction="#handleLogInButtonAction" prefHeight="40.0" prefWidth="120.0" text="Log In" />
+        <Label fx:id="label" layoutX="222.0" layoutY="24.0" minHeight="16" minWidth="69" prefHeight="101.0" prefWidth="357.0" text="Banking System">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <TextField fx:id="Username" layoutX="298.0" layoutY="178.0" />
+      <TextField fx:id="Password" layoutX="298.0" layoutY="238.0" />
+      <Text layoutX="152.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" textAlignment="CENTER" wrappingWidth="120.0">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="157.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" textAlignment="CENTER" wrappingWidth="109.8291015625">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+    </children>
+</AnchorPane>
